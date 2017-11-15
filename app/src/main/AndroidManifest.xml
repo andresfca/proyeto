@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andres.proyecto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/tiendaVirtualShiroe"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main"
+            android:label="@string/tiendaVirtualShiroe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CrearJuego"
+            android:label="@string/title_activity_crear_juego"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CrearManga"
+            android:label="@string/title_activity_crear_manga"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ModificarAccesorio" />
+        <activity android:name=".ModificarManga" />
+        <activity android:name=".ModificarJuego" />
+        <activity
+            android:name=".CrearAccesorio"
+            android:label="@string/title_activity_crear_accesorio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AgregarAccesorio"
+            android:label="@string/title_activity_agregar_accesorio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AgregarJuego"
+            android:label="@string/title_activity_agregar_juego"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AgregarManga"
+            android:label="@string/title_activity_agregar_manga"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

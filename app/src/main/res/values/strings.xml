@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="arrayOpc">
+        <item>@string/accesorios</item>
+        <item>@string/juegos</item>
+        <item>@string/mangas</item>
+    </string-array>
+    <string-array name="AccesoriosArray">
+        <item>@string/colgante</item>
+        <item>@string/anillo</item>
+        <item>@string/reloj</item>
+        <item>@string/gorro</item>
+        <item>@string/chompa</item>
+        <item>@string/bolso</item>
+        <item>@string/peluche</item>
+    </string-array>
+    <string name="title_activity_crear_juego">CrearJuego</string>
+    <string name="title_activity_crear_manga">CrearManga</string>
+    <string name="tiendaVirtualShiroe">Tienda virtual shiroe</string>
+    <string name="accesorios">Accesorios</string>
+    <string name="juegos">Juegos</string>
+    <string name="mangas">Mangas</string>
+    <string name="title_activity_crear_accesorio">CrearAccesorio</string>
+    <string name="title_activity_agregar_accesorio">AgregarAccesorio</string>
+    <string name="title_activity_agregar_juego">AgregarJuego</string>
+    <string name="title_activity_agregar_manga">AgregarManga</string>
+    <string name="nombre_transicion_imagen">transitionName</string>
+    <string name="AgregarAccesorio">Agregar accesorio</string>
+    <string name="agregar">Agregar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="agregarNombre">Agregar nombre:</string>
+    <string name="agregarPrecio">Agregar precio:</string>
+    <string name="colgante">Colgante</string>
+    <string name="anillo">Anillo</string>
+    <string name="reloj">Reloj</string>
+    <string name="gorro">Gorro</string>
+    <string name="chompa">Chompa</string>
+    <string name="bolso">Bolso</string>
+    <string name="peluche">Peluche</string>
+    <string name="MensajeErrorVacio">Campos Vacios</string>
+    <string name="Mensaje_accesorio_guardado">Accesorio guardado satisfactoriamente!!</string>
+    <string name="Seleccion_imagen">Seleccione una imagen</string>
+</resources>
